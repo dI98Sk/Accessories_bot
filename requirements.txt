@@ -1,0 +1,25 @@
+# Telegram Bot (для отправки в целевой канал)
+python-telegram-bot==20.7
+
+# Telegram User Client (для чтения каналов как пользователь)
+telethon==1.34.0
+
+# Google Sheets API
+google-auth==2.25.2
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+gspread==5.12.3
+
+# Excel processing
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+
+# Configuration
+python-dotenv==1.0.0
+
+# Logging
+colorlog==6.8.2
+
+# Async support
+aiofiles==23.2.1
+

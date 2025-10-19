@@ -1,0 +1,73 @@
+# Environment variables
+.env
+
+# Google Sheets credentials
+credentials.json
+*.json
+!package.json
+!tsconfig.json
+
+# Telegram session files
+*.session
+*.session-journal
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Data files (не коммитим прайсы)
+dataCifrovoyRay/*.xlsx
+dataXtremeCase/*.xlsx
+Sasha/*.xlsx
+OutTelegram_dir/*.xlsx
+processed_files/
+*.xlsx
+!example.xlsx
+
+# Backups
+*.tar.gz
+*.zip
+backup/
+
