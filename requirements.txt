@@ -1,7 +1,7 @@
-# Telegram Bot (для отправки в целевой канал)
+# Telegram Bot
 python-telegram-bot==20.7
 
-# Telegram User Client (для чтения каналов как пользователь)
+# Telegram User Client
 telethon==1.34.0
 
 # Google Sheets API
